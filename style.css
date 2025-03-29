@@ -1,69 +1,41 @@
-body {
-    margin: 0;
-    background-color: #f8f8f8;
-    color: #212427
-}
+	.card {
+	    width: 500px;
+	    height: fit-content;
+	    background-color: aliceblue;
+	    border-radius: 25px;
+	    border: solid 2px navy;
+	    margin: 20px;
+	    padding: 40px
+	}
 
-h1 {
-    width: fit-content;
-    margin: auto;
-}
+	.border {
+	    border-radius: 20px;
+	}
 
-.caixa {
-    border-radius: 5px;
-}
+	.icone1 {
+	    width: 100px;
+	    height: 100px;
+	    background-image: url('https://cdn-icons-png.flaticon.com/512/706/706830.png');
+	    background-size: cover;
+	}
 
-.pai {
-    width: 80%;
-    height: 350px;
-    margin: auto;
-    background-color: antiquewhite;
-    border: solid 2px #212427;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    position: relative;
-}
+	.titulo {
+	    font-family: monospace;
+	    font-size: 30px;
+	}
 
-.filho {
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    text-align: center;
-}
+	.cor-principal {
+	    color: navy;
+	}
 
-.cor1 {
-    background-color: #ED145B;
-}
+	.mensagem {
+	    font-family: monospace;
+	    font-size: 15px;
+	}
 
-.cor2 {
-    background-color: #63B1BC;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-.cor3 {
-    background-color: #EFB661;
-    position: absolute;
-    left: calc(50% - 40px);
-    top: calc(50% - 40px);
-}
-
-.instrucoes {
-    width: 80%;
-    margin: auto;
-    text-align: left;
-}
-
-.footer {
-    background-color: antiquewhite;
-    height: 130px;
-    margin-top: 50px;
-    padding-top: 20px;
-    text-align: center;
-}
-
-img {
-    width: 20%;
-}
+	.icone2 {
+	    width: 100px;
+	    height: 100px;
+	    background-image: url('https://cdn-icons-png.flaticon.com/256/3681/3681928.png');
+	    background-size: cover;
+	}
